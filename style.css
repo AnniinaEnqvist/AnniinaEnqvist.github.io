@@ -25,13 +25,7 @@ nav{
     height: 100%;
     display: flex;
     justify-content: space-around;
-    align-items: end;
-}
-
-.logo{
-    color: #007fba;
-    font-size: 2rem;
-    font-weight: bold;
+    align-items: center;
 }
 
 .logo span{
