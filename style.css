@@ -152,7 +152,7 @@ section{
 }
 
 .main-container .content{
-    color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
     width: 40%;
     min-height: 100px;
 }
