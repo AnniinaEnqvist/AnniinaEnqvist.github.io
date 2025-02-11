@@ -44,7 +44,7 @@ nav{
     position: absolute;
     right: 15px;
     top: 10px;
-    color: rgb(38, 2, 111);
+    color: rgb(100, 1, 128);
     display: none;
     font-size: clamp(2.5rem, 0.5rem + 5vw, 3rem);
 }
@@ -126,7 +126,7 @@ section{
     height: 80vh;
     border-radius: 100%;
     overflow: hidden;
-    box-shadow: 0 0 50px #676767;
+    box-shadow: 0 0 50px #007fba;
 }
 
 .main-container .image img{
