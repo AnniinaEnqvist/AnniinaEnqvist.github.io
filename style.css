@@ -29,14 +29,13 @@ nav{
 }
 
 .logo{
-    color: #ba0000;
+    color: #007fba;
     font-size: 2rem;
     font-weight: bold;
 }
 
 .logo span{
     color: #007fba;
-    text-shadow: 0 0 10px #007fba;
 }
 
 .hamburg,
