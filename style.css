@@ -25,12 +25,12 @@ nav{
     height: 100%;
     display: flex;
     justify-content: space-around;
-    align-items: first baseline;
+    align-items: center;
 }
 
 .logo{
     color: white;
-    font-size: 1,5rem;
+    font-size: 1.5rem;
     font-weight: bold;
 }
 
