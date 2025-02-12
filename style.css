@@ -25,7 +25,7 @@ nav{
     height: 100%;
     display: flex;
     justify-content: space-around;
-    align-items:first baseline;
+    align-items: first baseline;
 }
 
 .logo{
