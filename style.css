@@ -108,7 +108,7 @@ section{
 .main-container .content{
     color: white;
     width: 44%;
-    min-height: 100px;
+    height: 40vh;
 }
 .content h1{
     font-size: clamp(1rem, 1rem + 5vw, 1.8rem);
@@ -127,6 +127,7 @@ section{
     font-size: clamp(0.4rem , 0.2rem + 9vw, 1rem);
     margin: 10px 0;
 }
+
 .social-links i{
     display: inline-flex;
     justify-content: center;
@@ -137,7 +138,7 @@ section{
     border: 0.2rem solid #0178ff;
     border-radius: 50%;
     color: #0178ff;
-    margin: 50px 15px;
+    margin: 10px 15px;
     font-size: 1.5rem;
     transition: 0.2s linear;
 }
@@ -259,9 +260,11 @@ ul.social-icons {
 
 /* Projects Section */
 section.projects-section {
+  width: 100%;
+  height: 100vh;
   background-color: var(--dark-primary);
   color: #fff;
-  padding: 100px 120px;
+  padding: 160px 120px;
 }
 .projects-section h2 {
   font-size: 28px;
@@ -270,6 +273,7 @@ section.projects-section {
 .projects-section h2 > span {
   color: var(--primary);
 }
+
 .projects-cards {
   display: flex;
 }
@@ -324,14 +328,17 @@ section.projects-section {
 
 /* Contact Section */
 section.contact-section {
+  width: 100%;
+  height: 100vh;
   background-color: black;
   color: #fff;
   text-align: center;
-  padding: 100px;
+  padding: 120px;
 }
+
 .contact-section h2 {
   font-size: 28px;
-  margin: 50px 0;
+  margin: 10px 0;
 }
 .contact-section h2 > span {
   color: var(--primary);
@@ -341,7 +348,7 @@ textarea {
   background-color: #c4c4c4;
   width: 300px;
   padding: 5px 8px;
-  margin-bottom: 10px;
+  margin-top: 20px;
   border-radius: 5px;
   border: none;
   outline: none;
@@ -358,7 +365,7 @@ textarea:focus {
 .contact-section div p {
   background-color: black;
   padding: 100px 10px;
-  margin-top: 20px;
+  margin-top: 10px;
   text-align: center;
   font-size: 13px;
 }
@@ -375,6 +382,7 @@ textarea:focus {
   header {
     flex-direction: column;
     align-items: flex-start;
+    background-color: black;
   }
   header .logo {
     margin: auto;
@@ -393,10 +401,10 @@ textarea:focus {
    margin: 50px 0;
   }
    .main-container .image {
-    width: 250px;
+    width: 270px;
     height: 50vh;
     padding-left: 35px;
-    padding-bottom: 20px;
+    padding-bottom: 5px;
   }
   .main-container .image:hover{
     animation: none;
@@ -404,14 +412,14 @@ textarea:focus {
   .main-container .content {
     width: 250px;
     height: 50vh;
-    padding: 35px;
+    padding: 25px;
     padding-bottom: 50px;
   }
   /* Projects Section */
   section.projects-section {
     flex-direction: column;
     padding: 45px;
-    padding-top: 400px;
+    padding-top: 300px;
   }
   .projects-cards {
     flex-direction: column;
@@ -420,29 +428,20 @@ textarea:focus {
     width: 100%;
     margin: 40px 0;
   }
-
-
-
-
   /* Contact Section */
   section.contact-section {
     flex-direction: column;
     padding: 20px;
-    margin-top: 240vh;
+    margin-top: 220vh;
   }
   .contact-section h2 {
     margin: 50px 0;
+    margin-top: 20vh;
   }
   .contact-section form div > input,
   textarea {
     width: 240px;
     padding: 5px 8px;
     margin-bottom: 10px;
- 
-
   }
- 
-
-
-
-}
+ }
