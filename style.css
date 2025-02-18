@@ -48,7 +48,7 @@ header .logo {
   color: white;
   margin-right: 130px;
   font-weight: 600;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
 }
 header ul {
   display: flex;
@@ -371,7 +371,7 @@ textarea:focus {
 
 
 /* Media queries */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 700px) {
   header {
     flex-direction: column;
     align-items: flex-start;
@@ -379,47 +379,70 @@ textarea:focus {
   header .logo {
     margin: auto;
   }
-
   header ul {
     margin-top: 10px;
   }
-
   /* Hero Section */
   section.hero-section {
     flex-direction: column;
     padding: 40px;
-    padding-top: 130px;
+    padding-top: 80px;
   }
-
-  .hero-img img {
-    display: none;
+  .main-container {
+   flex-direction: column;
+   margin: 50px 0;
   }
-
-
-
+   .main-container .image {
+    width: 250px;
+    height: 50vh;
+    padding-left: 35px;
+    padding-bottom: 20px;
+  }
+  .main-container .image:hover{
+    animation: none;
+  }
+  .main-container .content {
+    width: 250px;
+    height: 50vh;
+    padding: 35px;
+    padding-bottom: 50px;
+  }
   /* Projects Section */
   section.projects-section {
-    padding: 40px;
+    flex-direction: column;
+    padding: 45px;
+    padding-top: 400px;
   }
-
   .projects-cards {
-    margin-top: 15px;
     flex-direction: column;
   }
-
   .projects-card-box {
     width: 100%;
-    margin: 80px 0;
+    margin: 40px 0;
   }
+
 
 
 
   /* Contact Section */
-  .contact-section form div input,
-  textarea {
-        width: 100%;
-        
+  section.contact-section {
+    flex-direction: column;
+    padding: 20px;
+    margin-top: 240vh;
   }
+  .contact-section h2 {
+    margin: 50px 0;
+  }
+  .contact-section form div > input,
+  textarea {
+    width: 240px;
+    padding: 5px 8px;
+    margin-bottom: 10px;
+ 
+
+  }
+ 
+
 
 
 }
