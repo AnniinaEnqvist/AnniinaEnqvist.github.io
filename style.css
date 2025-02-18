@@ -419,7 +419,7 @@ textarea:focus {
   section.projects-section {
     flex-direction: column;
     padding: 45px;
-    padding-top: 300px;
+    padding-top: 320px;
   }
   .projects-cards {
     flex-direction: column;
