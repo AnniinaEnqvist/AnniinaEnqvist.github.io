@@ -415,6 +415,11 @@ textarea:focus {
     padding: 25px;
     padding-bottom: 50px;
   }
+   .content .typewriter {
+    margin: 0;
+    padding: 0;
+    height: 55%;
+  }
   /* Projects Section */
   section.projects-section {
     flex-direction: column;
