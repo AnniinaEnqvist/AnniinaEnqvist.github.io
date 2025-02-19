@@ -438,7 +438,7 @@ textarea:focus {
   section.contact-section {
     flex-direction: column;
     padding: 20px;
-    margin-top: 420%;
+    margin-top: 360%;
   }
   .contact-section h2 {
     margin: 50px 0;
