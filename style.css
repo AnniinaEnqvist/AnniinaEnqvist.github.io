@@ -389,6 +389,7 @@ textarea:focus {
     margin: auto;
   }
   header ul {
+    margin-left: 5%;
     margin-top: 10px;
   }
   /* Hero Section */
