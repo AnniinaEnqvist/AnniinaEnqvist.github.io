@@ -6,7 +6,7 @@
   
   
   const texts = [
-      "a DESIGNER",
+      "an INDUSTRIAL DESIGNER",
       "a PRODUCT DEVELOPER",
       "an INNOVATOR",
       "an ARTISAN"
