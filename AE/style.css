@@ -197,9 +197,8 @@ body p {
       width: 40%;
     }
   .modal-content h2 p img {
-      display: flex;
-      width: 16%;
-      margin-left: 86px;
+      width: 18%;
+      margin-left: 40%;
     } 
   .modal-content a {
       width: 100%; 
