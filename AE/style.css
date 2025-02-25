@@ -179,7 +179,7 @@ body p {
     .modal-content {
       display: flex;
       flex-direction: column;
-      width: 90%;
+      width: 80%;
     }
   .modal-content h2 {
       margin-right: 5%;
@@ -207,23 +207,17 @@ body p {
 
 
   .modal-content h3 {
-    margin-left: 3px;
-    text-align: center;
+    margin-left: 5px;
     font-size: 11px;
-    align-items: center;
+
       }
   .modal-content h3 img {
-      align-items: center;
-      flex-direction: row;
-      display: flex; 
+    margin-top: 20px;
       width: 20%;
       color:#ffae00;
-      margin-left: 94px;
+      margin-left: 5px;
       }
-  .text {
-      margin-left: 24px;
-      }
-
+  
 
   
 
