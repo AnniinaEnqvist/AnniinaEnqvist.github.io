@@ -231,9 +231,10 @@ body p {
 
     section {
       width: 100%;
+      display: flex;
       flex-direction: column;
       align-items: center;
-      margin-top: 65%;
+      margin-top: 30%;
     }
       .image-container1 img {
       width: 70%;
@@ -246,7 +247,7 @@ body p {
     }
       body p {
       margin-top: 12% ;
-      margin-left: 26%;
+      margin-left: 28%;
       font-size: 12px;
     }
   }
