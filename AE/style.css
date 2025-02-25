@@ -92,6 +92,9 @@ header ul li a:hover {
     color:#ffae00;          
     font-weight:500;       
     }
+.modal-content h2 img {
+  width: 10%;
+    }
 .modal-content h2 p {
     color: black;
     margin-left: 1px;
