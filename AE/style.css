@@ -201,8 +201,8 @@ body p {
       width: 18%;
       margin-left: 86px;
     } 
-  .modal-content a img {
-      width: 60%; 
+  .modal-content a {
+      width: 100%; 
       }
 
 
