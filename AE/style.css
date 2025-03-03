@@ -137,11 +137,11 @@ section {
     align-items: center;
     display: flex;
     }    
-.image-container3 img {
+.image-container1 img {
     margin-left: 30%;
     width: 100%;
     }
-    .image-container3 img:hover {
+    .image-container1 img:hover {
       transform: scale(1.1);
       box-shadow: 0 4px 20px rgba(255, 255, 255, 0.5);
       transition: box-shadow 0.3s ease;
