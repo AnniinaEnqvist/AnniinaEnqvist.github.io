@@ -109,6 +109,19 @@
         </div>
 
 
+   <section>  
+      
+        <div
+           <div class="image-container1">
+              <img src="a.png" alt="Clickable Image" id="clickable-image1">
+          </div>
+   
+          <div class="image-container2">
+            <img src="aa.png" alt="Clickable Image" id="clickable-image2">
+          </div>
+        </div>
+
+
     </section>
       
     <div>
@@ -119,17 +132,18 @@
       // Get the image element
       document.getElementById("clickable-image1").addEventListener("click", function() {
         // Redirect to the desired URL when the image is clicked
+        window.location.href = "New/Portfolio.html";
+      });
+    </script>  
+
+    <script>
+      // Get the image element
+      document.getElementById("clickable-image2").addEventListener("click", function() {
+        // Redirect to the desired URL when the image is clicked
         window.location.href = "Old/Portfolio.html";
       });
     </script>
 
-<script>
-  // Get the image element
-  document.getElementById("clickable-image2").addEventListener("click", function() {
-    // Redirect to the desired URL when the image is clicked
-    window.location.href = "https://anniinaenqvist.github.io/";
-  });
-</script>  
 
 <script src="script.js"></script>
 
