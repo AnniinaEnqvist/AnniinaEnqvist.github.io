@@ -138,6 +138,7 @@ section {
     display: flex;
     }    
 .image-container1 img {
+    cursor: pointer;
     margin-left: 30%;
     width: 100%;
     }
